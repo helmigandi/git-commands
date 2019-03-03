@@ -43,6 +43,22 @@ bisa simpan ke local dulu baru syncronise ke database server
 --contoh: 1. untuk semua file   ->      git add .
 --        2. untuk per file     ->      git add nama_file
 
+-staging area
+--tempat persiapan dari working folder ke repository
+--setelah di add dan sebelum di commit
+--contoh kasus: saat mengerjakan suatu program untuk membuat fitur baru kemudian dapat info bahwa ada bug pada program yang kita kerjakan di program yang sama. lalu kita edit program tersebut untuk memperbaiki bug. dengan hal ini kita memiliki dua perubahan yaitu bug fix dan fitur baru yang belum jadi. sementara kita mau yang disimpan bug fix saja. jadi kita commit baris tertentu saja.
+---git reset
+---untuk mereset semua yang di staging
+---git add -p
+---untuk add ke staging secara perbaris atau potongan.
+---pilih s, untuk split
+---pilih baris yang ingin dimasukan ke staging lalu dicommit.
+---git diff --staged
+---melihat apa saja yang di stagging
+---git diff
+---melihat apa saja yang tidak masuk staging
+
+
 -git commit
 --untuk menyimpan file
 --contoh git commit -m "pesan / keterangan commit"
@@ -58,5 +74,3 @@ bisa simpan ke local dulu baru syncronise ke database server
 --melihat perbedaan antar versi
 --contoh: git dif commitId_sebelum..commitId_sesudah
 
--staging area
---tempat persiapan
