@@ -75,3 +75,19 @@ bisa simpan ke local dulu baru syncronise ke database server
 
 -git reset --hard
 --membatalkan perubahan di staging dan working(Bahaya!!!)
+
+-gitignore
+--tidak mengikutsertakan file yang tidak diinginkan(hasil compile)
+
+-remote hosting (github)
+--buat repository baru pada github
+--terdapat dua protokol https/ssh
+--bedanya protokol yang dipakai dan authentikasinya.
+--kalau ssh pakai username password dan public key(tidak usah masukin password) kalau https akan ditanya password.
+--copy url yang ada di github dan daftarkan di repo lokal
+-- lalu ketik:
+--git remote add nama_alias url_github
+--git remote -v
+--untuk menegecek (push -> dupload, fetch -> download)
+--git push -u git-belajar master
+--push repository lokal
