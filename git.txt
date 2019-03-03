@@ -58,3 +58,5 @@ bisa simpan ke local dulu baru syncronise ke database server
 --melihat perbedaan antar versi
 --contoh: git dif commitId_sebelum..commitId_sesudah
 
+-staging area
+--tempat persiapan
