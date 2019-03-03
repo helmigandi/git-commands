@@ -25,8 +25,14 @@ bisa simpan ke local dulu baru syncronise ke database server
 -dan lain-lain
 
 #Memulai Git
+
+-config
+--untuk memulai git menambahkan nama dan email
+--git config --global user.email "sugandihelmi@gmail.com"
+--git config --global user.name "Helmi"
+
 -git init
---untuk membuat folder di local
+--untuk membuat repository baru di local
 --contoh: git init belajar-git
 
 -git status
@@ -34,3 +40,12 @@ bisa simpan ke local dulu baru syncronise ke database server
 
 -git add
 --untuk mentrack / monitor ke git
+--contoh: 1. untuk semua file   ->      git add .
+--        2. untuk per file     ->      git add nama_file
+
+-git commit
+--untuk menyimpan file
+--contoh git commit -m "pesan / keterangan commit"
+
+-git diff
+--untuk melihat perbedaan
