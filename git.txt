@@ -49,3 +49,12 @@ bisa simpan ke local dulu baru syncronise ke database server
 
 -git diff
 --untuk melihat perbedaan
+
+-git log
+--melihat perubahan history
+--contoh: git log --oneline
+
+-git diff
+--melihat perbedaan antar versi
+--contoh: git dif commitId_sebelum..commitId_sesudah
+
