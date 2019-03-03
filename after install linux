@@ -1,0 +1,58 @@
+
+Install driver
+sudo ubuntu-drivers autoinstall
+
+install printer, night mode, battery saver
+sudo apt install hplip
+hplip-gui redshift redshift-gtk tlp powertop
+
+
+install grub-customizer
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+sudo apt-get install grub-customizer
+
+Install Grub-customizer
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+
+Install Libreoffice
+flatpak install flathub org.libreoffice.LibreOffice
+
+install flash
+sudo apt install ubuntu-restricted-extras
+
+install java, git
+sudo apt install openjdk-8-jdk git
+
+install vscode
+(Open Source build)
+flatpak install flathub com.visualstudio.code.oss
+(proprietary microsoft)
+flatpak install flathub com.visualstudio.code
+
+Install vlc
+flatpak install flathub org.videolan.VLC
+
+install gimp
+flatpak install flathub org.gimp.GIMP
+
+install inkscape
+flatpak install flathub org.inkscape.Inkscape
+
+install intellij idea community
+flatpak install flathub com.jetbrains.IntelliJ-IDEA-Community
+
+install netbeans
+flatpak install flathub org.apache.netbeans
+
+install sublime
+flatpak install flathub com.sublimetext.three
+
+install postman
+flatpak install flathub com.getpostman.Postman
+
+uninstall paket
+sudo apt-get purge --auto-remove parole
+
+uninstall flatpak
+flatpak list --app
+flatpak uninstall org.gimp.GIMP

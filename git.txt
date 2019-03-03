@@ -79,7 +79,7 @@ bisa simpan ke local dulu baru syncronise ke database server
 -gitignore
 --tidak mengikutsertakan file yang tidak diinginkan(hasil compile)
 
--remote hosting (github)
+-remote repository (github)
 --buat repository baru pada github
 --terdapat dua protokol https/ssh
 --bedanya protokol yang dipakai dan authentikasinya.
@@ -90,4 +90,7 @@ bisa simpan ke local dulu baru syncronise ke database server
 --git remote -v
 --untuk menegecek (push -> dupload, fetch -> download)
 --git push -u git-belajar master
---push repository lokal
+--push repository lokal (-u untuk menset default remote yaitu github, hal ini dilakukan pada saat push pertama)
+
+
+--mendapatkan yang sudah ada diserver di download ke lokal
