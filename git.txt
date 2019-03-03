@@ -92,5 +92,7 @@ bisa simpan ke local dulu baru syncronise ke database server
 --git push -u git-belajar master
 --push repository lokal (-u untuk menset default remote yaitu github, hal ini dilakukan pada saat push pertama)
 
-
+-clone
 --mendapatkan yang sudah ada diserver di download ke lokal
+--git clone nama_url
+--git clone nama_url nama_folder_beda
