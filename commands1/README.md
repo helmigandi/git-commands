@@ -8,7 +8,7 @@ git config --global user.name "Helmi"
 ```
 
 ### git init
-untuk membuat repository baru di local
+untuk membuat repository baru di local \
 contoh: 
 ```markdown
 git init belajar-git
@@ -21,7 +21,7 @@ git status
 ```
 
 ### git add
-untuk mentrack / monitor ke git
+untuk mentrack / monitor ke git \
 contoh: 
 1. untuk semua file:
    ```markdown
@@ -33,7 +33,7 @@ contoh:
    ```
 
 ### git commit
-untuk menyimpan file
+untuk menyimpan file \
 contoh:
 ```markdown
 git commit -m "pesan / keterangan commit"
@@ -46,14 +46,14 @@ git diff
 ```
 
 ### git log
-melihat perubahan history
+melihat perubahan history \
 contoh:
 ```markdown
 git log --oneline
 ```
 
 ### git diff log
-melihat perbedaan antar versi
+melihat perbedaan antar versi \
 contoh:
 ```markdown
 git dif commitId_sebelum..commitId_sesudah
