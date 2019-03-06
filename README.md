@@ -8,15 +8,16 @@ Version Control
 
 Pembagian
 ---------
-### Centralize (Subversion)
+#### Centralize (Subversion)
 - Ada server satu, lalu semua orang mengakses ke server tersebut
 - jadi kalau kita menyimpan perubahan, langsung menyimpan ke database server
 - kalau kita mau mengambil perubahan terbaru, langsung ambil dari database server
-### Distributed (Git)
+#### Distributed (Git)
 - Setiap orang punya database sendiri-sendiri
 - Jika mau menyimpan perubahan, tidak perlu ke database server, bisa simpan ke local dulu baru syncronise ke database server
 
-## Hosting
+Hosting
+-------
 - Github
 - Bitbucket
 - Gitlab
