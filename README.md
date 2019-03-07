@@ -22,3 +22,7 @@ Hosting
 - Bitbucket
 - Gitlab
 - dan lain-lain
+
+Sumber Belajar
+--------------
+Muhardin, Endy.(2017). _Training Version Control dengan Git_. [https://www.youtube.com/user/artivisi/](<https://www.youtube.com/playlist?list=PL9oC_cq7OYbwhs_x2S_Vv9VFRKnoXs8hn>). (7 Maret 2019)
