@@ -2,7 +2,7 @@ Commands bagian 2
 =================
 ### Staging area
 
-![staging](/master/img/git-staging.png)
+![staging](https://github.com/helmiz/git-commands/blob/master/img/git-staging.png)
 
 - Tempat persiapan dari working folder ke repository setelah di add dan sebelum di commit
 - contoh kasus: saat mengerjakan suatu program untuk membuat fitur baru kemudian dapat info bahwa ada bug pada program yang kita kerjakan di program yang sama. lalu kita edit program tersebut untuk memperbaiki bug. dengan hal ini kita memiliki dua perubahan yaitu bug fix dan fitur baru yang belum jadi. sementara kita mau yang disimpan bug fix saja. jadi kita commit baris tertentu saja.
