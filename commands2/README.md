@@ -14,13 +14,15 @@ Commands bagian 2
   
   * untuk add ke staging secara perbaris atau potongan
     ``` 
-   git add -p
+    git add -p
     ```
+
   * pilih s, untuk split, lalu tentukan baris atau potongan yang ingin dimasukan ke staging lalu dicommit.
   * Kita dapat melihat apa saja yang di stagging dengan cara
     ```
     git diff --staged
     ```
+
   * Untuk melihat apa saja yang tidak masuk staging
     ```
     git diff
