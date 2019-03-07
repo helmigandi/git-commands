@@ -2,7 +2,7 @@ Commands bagian 3
 =================
 
 ### Branch
-![git-branch](img/git-branch.png)
+![git-branch](https://github.com/helmiz/git-commands/blob/master/img/git-branch.png)
 - Head -> Ujung dari suatu branch, Head terbagi dua yaitu head dan HEAD.
   * HEAD yaitu Aktif yang berarti kita sedang berada di dalamnya
 - Branch adalah Head yang dikasih nama contoh: 1.x
