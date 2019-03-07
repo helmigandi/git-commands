@@ -1,12 +1,18 @@
-
--staging area
---tempat persiapan dari working folder ke repository
---setelah di add dan sebelum di commit
---contoh kasus: saat mengerjakan suatu program untuk membuat fitur baru kemudian dapat info bahwa ada bug pada program yang kita kerjakan di program yang sama. lalu kita edit program tersebut untuk memperbaiki bug. dengan hal ini kita memiliki dua perubahan yaitu bug fix dan fitur baru yang belum jadi. sementara kita mau yang disimpan bug fix saja. jadi kita commit baris tertentu saja.
----git reset
----untuk perubahan di stagging
----git add -p
----untuk add ke staging secara perbaris atau potongan.
+Commands bagian 2
+=================
+### Staging area
+- Tempat persiapan dari working folder ke repository setelah di add dan sebelum di commit
+- contoh kasus: saat mengerjakan suatu program untuk membuat fitur baru kemudian dapat info bahwa ada bug pada program yang kita kerjakan di program yang sama. lalu kita edit program tersebut untuk memperbaiki bug. dengan hal ini kita memiliki dua perubahan yaitu bug fix dan fitur baru yang belum jadi. sementara kita mau yang disimpan bug fix saja. jadi kita commit baris tertentu saja.
+- Langkah-langkah:
+  * untuk perubahan di stagging (hapus yang sudah di add agar tidak terpush)
+    ```
+    git reset
+    ```
+  
+  * untuk add ke staging secara perbaris atau potongan
+   ``` 
+   git add -p
+   ```
 ---pilih s, untuk split
 ---pilih baris yang ingin dimasukan ke staging lalu dicommit.
 ---git diff --staged
