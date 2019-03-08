@@ -60,4 +60,22 @@ bisa masuk ke github lalu delete branch atau dengan cara:
 	```
 	git push origin :nama_branch
 	```
+### Pull & Fetch
+- Perintah git pull akan mengambil commit terbaru lalu otomatis menggabungkan (merge) dengan branch yang aktif.
+- Sedangkan git fetch akan mengambil commit saja. Perintah git fetch tidak akan langsung melakukan merge.
+	```
+	git pull origin master
+	git fetch origin master
+	```
+- Pada kode di atas Artinya kita akan mengambil commit dari branch master pada repository remote. origin adalah nama remote-nya.
 
+#### Pemakaian Pull & Fetch
+- Apabila kita sudah melakukan commit di repository lokal, maka yang kita gunakan adalah git fetch Karena untuk mencegah terjadinya bentrok.
+- Perintah git fetch akan mengambil commit terbaru dan menyimpannya di branch origin/master.
+- Sedangkan apabila kita tidak pernah melakukan apa-apa di lokal repository, kita bisa menggunakan git pull.
+- Perintah git pull akan mengambil commit terbaru ke branch origin/master dan langsung menggabungkannya dengan branch master (lokal).
+
+### Pull / Merge Request
+
+
+- Fork -> Mengcopy
