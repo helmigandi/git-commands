@@ -68,12 +68,21 @@ bisa masuk ke github lalu delete branch atau dengan cara:
 	git fetch origin master
 	```
 - Pada kode di atas Artinya kita akan mengambil commit dari branch master pada repository remote. origin adalah nama remote-nya.
+- Pemakaian Pull & Fetch
+  * Apabila kita sudah melakukan commit di repository lokal, maka yang kita gunakan adalah git fetch Karena untuk mencegah terjadinya bentrok.
+  * Perintah git fetch akan mengambil commit terbaru dan menyimpannya di branch origin/master.
+  * Sedangkan apabila kita tidak pernah melakukan apa-apa di lokal repository, kita bisa menggunakan git pull.
+  * Perintah git pull akan mengambil commit terbaru ke branch origin/master dan langsung menggabungkannya dengan branch master (lokal).
+- Contoh Kasus:
+![shared-repo-workflow](https://github.com/helmiz/git-commands/blob/master/img/shared-repo-workflow.png)
 
-#### Pemakaian Pull & Fetch
-- Apabila kita sudah melakukan commit di repository lokal, maka yang kita gunakan adalah git fetch Karena untuk mencegah terjadinya bentrok.
-- Perintah git fetch akan mengambil commit terbaru dan menyimpannya di branch origin/master.
-- Sedangkan apabila kita tidak pernah melakukan apa-apa di lokal repository, kita bisa menggunakan git pull.
-- Perintah git pull akan mengambil commit terbaru ke branch origin/master dan langsung menggabungkannya dengan branch master (lokal).
+  1. Programmer A membuat project dengan tiga baris perubahan, setelah itu push pertama dengan `push -u gitlab master`.
+  2. Programmer B clone sehingga mendapatkan hasil tiga perubahan dari si A.
+  3. Programmer B menambahkan tiga baris pada project, Lalu commit dan push dengan `git push`. Masuklah perubahan baris pada Shared Repo Server menjadi enam.
+  4. Programmer A juga mengadakan perubahan dua baris, commit dan push. Dalam hal ini akan di *Reject* karena di dalam Server Repo sudah ada perubahan si B maka si A harus pull dahulu
+  5. Programmer A melakukan Pull. Jika tidak ada konflik maka Repo si A bertambah tiga baris dan akan melakukan commit (merge) automatis. Kalau ada konflik maka akan macet atau begitu di merge dia gagal jadi harus diedit dahulu untuk menyelesaikan konflik lalu commit manual.
+  6. Programmer A push kembali maka Repo Server akan bertambah dua.
+  7. Programmer B Fetch dan Merge untuk menambahkan baris dari Repo Server
 
 ### Pull / Merge Request
 
