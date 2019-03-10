@@ -27,6 +27,6 @@ Sumber Belajar
 --------------
 Muhardin, Endy. (2017). _Training Version Control dengan Git_. [https://www.youtube.com/user/artivisi/](<https://www.youtube.com/playlist?list=PL9oC_cq7OYbwhs_x2S_Vv9VFRKnoXs8hn>). (7 Maret 2019)
 
-Muhardin, Endy. (2018). _Training Version Control dengan Git_. [https://www.youtube.com/user/artivisi/](<https://www.youtube.com/playlist?list=PL9oC_cq7OYbxJ0n71LXLnkjf_ya2dsOff). (7 Maret 2019)
+Muhardin, Endy. (2018). _Training Version Control dengan Git_. [https://www.youtube.com/user/artivisi/](<https://www.youtube.com/playlist?list=PL9oC_cq7OYbxJ0n71LXLnkjf_ya2dsOff>). (7 Maret 2019)
 
-Dian, Muhar. (2018). _Kapan Waktu yang Tepat Menggunakan git pull dan git fetch?_. [https://www.petanikode.com/](https://www.petanikode.com/git-pull-fetch/). (7 Maret 2019)
+Dian, Muhar. (2018). _Kapan Waktu yang Tepat Menggunakan git pull dan git fetch?_. [https://www.petanikode.com/](<https://www.petanikode.com/git-pull-fetch/>). (7 Maret 2019)
