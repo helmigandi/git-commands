@@ -107,6 +107,16 @@ bisa masuk ke github lalu delete branch atau dengan cara:
 9. Feature X dapat dipush dan tidak. Dipush kalau feature tersebut dikerjakan bersama atau Sharing dengan Programmer Lain (garis abu-abu pada kotak shared repo).
 
 ### Pull / Merge Request
-
-
+- Seorang Programmer tidak mau memberikan hak menulis (wirte) kepada orang lain, akan tetapi orang lain boleh baca dan copy. Tetapi jika ada yang ingin menambahkan maka Seorang Programmer tersebutlah yang ambil atau pull. Jadi Programmer tersebutlah yang mengontrol. Lalu Programmer lain dapat menambahkan hak menulis dengan _pull / merge request_.
 - Fork -> Mengcopy
+
+![pull-merge-request](https://github.com/helmiz/git-commands/blob/master/img/fpull-merge-request.png)
+
+1. Programmer A mempunyai Project dengan beberapa commit di Local A, Lalu si A push ke Remote punya si A sendiri.
+2. Programmer B ingin ikut Project yang dikerjakan si A dan menambahkan atau memodifikasi beberapa bagian Project tersebut. Dengan begitu maka si B akan melakukan _Fork_ ke Remote B.
+3. Programmer B melakukan Clone.
+4. Programmer B melakukan coding dan perubahan. Lalu si B push ke Remotenya ia Sendiri menjadi delapan commit.
+5. Programmer B ingin apa yang ia tambahkan dapat dipakai oleh orang banyak. Dikarenakan Project tersebutnya punya si A dan yang mempopulerkan si A maka si B membuat _pull request_.
+6. Programmer A akan pull dari Remote B. Lalu si A akan bikin Branch Review si B.
+7. Jika Bagus maka si A akan Merge punya si B.
+8. Programmer A lalu push ke Remote A.
