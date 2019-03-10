@@ -73,7 +73,7 @@ bisa masuk ke github lalu delete branch atau dengan cara:
   * Perintah git fetch akan mengambil commit terbaru dan menyimpannya di branch origin/master.
   * Sedangkan apabila kita tidak pernah melakukan apa-apa di lokal repository, kita bisa menggunakan git pull.
   * Perintah git pull akan mengambil commit terbaru ke branch origin/master dan langsung menggabungkannya dengan branch master (lokal).
-- Contoh Kasus:
+- Contoh Kasus (Shared Repo Workflow):
 ![shared-repo-workflow](https://github.com/helmiz/git-commands/blob/master/img/shared-repo-workflow.png)
 
   1. Programmer A membuat project dengan tiga baris perubahan, setelah itu push pertama dengan `push -u gitlab master`.
