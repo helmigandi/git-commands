@@ -110,7 +110,7 @@ bisa masuk ke github lalu delete branch atau dengan cara:
 - Seorang Programmer tidak mau memberikan hak menulis (wirte) kepada orang lain, akan tetapi orang lain boleh baca dan copy. Tetapi jika ada yang ingin menambahkan maka Seorang Programmer tersebutlah yang ambil atau pull. Jadi Programmer tersebutlah yang mengontrol. Lalu Programmer lain dapat menambahkan hak menulis dengan _pull / merge request_.
 - Fork -> Mengcopy
 
-![pull-merge-request](https://github.com/helmiz/git-commands/blob/master/img/fpull-merge-request.png)
+![pull-merge-request](https://github.com/helmiz/git-commands/blob/master/img/pull-merge-request.png)
 
 1. Programmer A mempunyai Project dengan beberapa commit di Local A, Lalu si A push ke Remote punya si A sendiri.
 2. Programmer B ingin ikut Project yang dikerjakan si A dan menambahkan atau memodifikasi beberapa bagian Project tersebut. Dengan begitu maka si B akan melakukan _Fork_ ke Remote B.
