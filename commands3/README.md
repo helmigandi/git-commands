@@ -121,4 +121,4 @@ bisa masuk ke github lalu delete branch atau dengan cara:
 7. Merge hasil pull ke Branch Review B.
 8. Code Review, apakah kodenya bagus atau tidak.
 9. Merge ke Master A jika kode tersebut bagus.
-10. Programmer A lalu push ke Remote A.
+10. Programmer A lalu push ke Remote A (nomer 8 pada gambar di garis tengah).
