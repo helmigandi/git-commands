@@ -118,5 +118,7 @@ bisa masuk ke github lalu delete branch atau dengan cara:
 4. Programmer B melakukan coding dan perubahan. Lalu si B push ke Remotenya ia Sendiri menjadi delapan commit.
 5. Programmer B ingin apa yang ia tambahkan dapat dipakai oleh orang banyak. Dikarenakan Project tersebutnya punya si A dan yang mempopulerkan si A maka si B membuat _pull request_.
 6. Programmer A akan pull dari Remote B. Lalu si A akan bikin Branch Review si B.
-7. Jika Bagus maka si A akan Merge punya si B.
-8. Programmer A lalu push ke Remote A.
+7. Merge hasil pull ke Branch Review B.
+8. Code Review, apakah kodenya bagus atau tidak.
+9. Merge ke Master A jika kode tersebut bagus.
+10. Programmer A lalu push ke Remote A.
