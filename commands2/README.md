@@ -55,6 +55,11 @@ gitignore
   ```
   git push -u git-belajar master
   ```
+- Mengganti nama remote origin
+  ```
+  $ git remote rename origin destination
+    Change remote name from 'origin' to 'destination'
+  ```
 
 ### clone
 mendapatkan yang sudah ada diserver di download ke lokal
