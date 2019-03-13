@@ -43,9 +43,9 @@ gitignore
 ### remote repository (github)
 - Membuat repository baru pada github
 - Terdapat dua protokol https/ssh, bedanya protokol yang dipakai dan authentikasinya. Kalau ssh pakai username password dan public key(tidak usah masukin password) kalau https akan ditanya password.
-- copy url yang ada di github dan daftarkan di repo lokal, lalu ketik:
+- copy url yang ada di github dan daftarkan di repo lokal, _nama-alias dipakai untuk mengganti nama yang defaultnya origin_, lalu ketik:
   ```  
-  git remote add nama_alias url_github
+  git remote add nama-alias url-github
   ```
 - untuk menegecek (push -> dupload, fetch -> download)
   ```
